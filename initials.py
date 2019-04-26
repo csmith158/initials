@@ -4,6 +4,6 @@ def get_initials():
 
     for i in (upper_name):
         if i == " ":
-            print(upper_name[ord(i) + 1])
+            print(upper_name[i + 1])
 
 get_initials()
